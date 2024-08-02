@@ -1,0 +1,214 @@
+@font-face {
+    font-family: china;
+    src: url(./3856NeueMachina.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 90px;
+}
+
+.part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+nav h1 {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+nav h1 i {
+    rotate: 45deg;
+    display: inline-block;
+    font-size: 30px;
+}
+
+nav h4 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+nav button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 550;
+    border: 1px solid #111;
+}
+
+.center {
+    padding: 70px 100px;
+    height: 78%;
+    width: 100%;
+    display: flex;
+}
+
+.center-part1 {
+
+    height: 100%;
+    width: 50%;
+}
+
+
+.center-part1 h1 {
+    line-height: 1.1;
+    font-size: 80px;
+    font-family: china;
+}
+
+.center-part1 p {
+    font-size: 25px;
+    width: 100%;
+    margin-top: 10px;
+    /* font-family: china ; */
+
+    margin-bottom: 15px;
+}
+
+.center-part1 button{
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    padding: 25px 40px;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+}
+.center-part2 {
+
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+.center-part2 img{
+    height: 100%;
+    right: 0;
+    position: absolute; 
+}
+.section1bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+.section1bottom img{
+    height: 50px;
+}
+.section2 .services{
+    padding: 40px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-top: 30px;
+}
+.services h3{
+    background-color: #9AE975;
+    font-weight: 500;
+    padding: 5px 10px 3px 10px;
+    border-radius: 5px;
+    font-family: china;
+
+    font-size: 40px;
+}
+.services p{
+    width: 40%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.container{
+    min-height: 86vh;
+    width: 100%;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+.elem{
+    flex-shrink: 0;
+    height: 280px;
+    width: 40%;
+    border: 3px solid black;
+    border-radius: 30px;
+    
+    box-shadow: 0px 10px 0px black;
+    padding: 35px 45px;
+    display: flex;
+}
+.elem-part1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.elem-part2{
+    height: 100%;
+    width: 50%;
+
+}
+.elem-part2 img{
+    height: 100%;
+}
+.elem-part1 h2{
+    font-size: 23px;
+    font-family: china;
+    width: 70%;
+    padding: 0px 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #9AE975;
+}
+.elem-part1 h4{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    gap: 20px;
+}
+.elem-part1 h4 i{
+    padding: 10px;
+    background-color: #111;
+    font-weight: 900;
+    color: #9AE975;
+    border-radius: 50%;
+}
+.black {
+    background-color: #111;
+}
+
+
+
